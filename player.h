@@ -13,6 +13,9 @@ typedef struct {
   char symbol;
 } player_t;
 
+extern void assign_random_symbol(player_t* players);
+
+extern void ask_user_symbol(player_t* players);
 
 extern player_t* get_next_player(player_t* players);
 

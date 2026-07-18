@@ -19,7 +19,7 @@ void trim_leading(char* str) {
   char* start = str;
   
 
-  while (isspace((unsigned char)* start))
+  while (isspace((unsigned char)* start) || *start == '\n')
     start++;
 
   memmove(str, start, strlen(start) + 1);
