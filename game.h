@@ -3,6 +3,6 @@
 
 #include "player.h"
 
-extern void run_game_loop(player_t* players);
+extern void run_game_loop(player_t *players);
 
 #endif
